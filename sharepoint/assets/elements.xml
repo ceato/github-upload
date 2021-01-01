@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AppCustomizerHelloWorld"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="d6932b0b-52de-4ebc-a6d6-bd72c6e18a82"
+        ClientSideComponentProperties="{&quot;Top&quot;:&quot;This is my app customizer banner TOP&quot;,&quot;Bottom&quot;: &quot;This is my app customizer banner BOTTOM&quot;}">
+    </CustomAction>
+</Elements>

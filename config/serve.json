@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ceatolab.sharepoint.com/sites/20437004/SitePages/HeroWebPart.aspx",
+      "customActions": {
+        "d6932b0b-52de-4ebc-a6d6-bd72c6e18a82": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "This is my app customizer banner",
+            "Top":"This is my app customizer banner TOP",
+            "Bottom": "This is my app customizer banner BOTTOM"
+          }
+        }
+      }
+    },
+    "appCustomizerHelloWorld": {
+      "pageUrl": "https://ceatolab.sharepoint.com/sites/20437004/SitePages/HeroWebPart.aspx",
+      "customActions": {
+        "d6932b0b-52de-4ebc-a6d6-bd72c6e18a82": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "This is my app customizer banner",
+            "Top":"This is my app customizer banner TOP",
+            "Bottom": "This is my app customizer banner BOTTOM"
+          }
+        }
+      }
+    }
+  }
+}
